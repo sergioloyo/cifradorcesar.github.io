@@ -1,0 +1,77 @@
+
+:root {
+    --primary-font-color1: #ffffff; 
+    --primary-font-color2: #000000;
+}
+
+h2{
+    font-size:35px;
+}
+h3{
+    font-size: 1.92rem;;
+}
+/** loader */
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+/** fin loader */
+
+
+/** home */
+        .background-1{
+            width: 100%;
+            background-color: black;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .fondo-1{
+            width:100%;
+            height:100vh;
+            background: black;
+            opacity:.9;
+        }
+
+        .fondo-1 .img-women{
+            margin-top:13em;
+            max-width: 100%;
+        }
+
+        .fondo-1 .title-welcome{
+            margin-top: 4em;
+            margin-bottom: 0px;
+            text-align: center;
+            color: var(--primary-font-color1);
+            font-size: 2.5em;
+        }
+        .fondo-1 span{
+            font-size: 4em;
+            color: white;
+            font-weight: bold;
+        }
+
+        .fondo-1 .see-more{
+            margin-top:3em;
+            color: var(--primary-font-color1);
+        }
+
+        .fondo-1 .fa-chevron-down{
+            font-size: .7em;
+            color: var(--primary-font-color1);
+        }
+
+/** fin home */
+
